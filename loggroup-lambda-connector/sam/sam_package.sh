@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SAM_S3_BUCKET="kbs-reporting-db-production"
+SAM_S3_BUCKET="kbs-sumologic-connector"
 AWS_REGION="us-west-2"
 LAMBDA_ARN="arn:aws:lambda:us-west-2:529513974030:function:SumoCWLogsLambda-33c639e0-1d57-11e9-ae4a-0ae846f1e916"
 LOG_GROUP_PATTERN="\/aws\/(lambda|fargate)\/(?!(kanaha|rdb|wasaga|.+?_producer_|workday\-producers)).+"

@@ -41,7 +41,7 @@ Parameters:
 
   DestinationArnValue:
     Type: String
-    Default: "arn:aws:lambda:us-west-2:123456789000:function:TestLambda"
+    Default: "arn:aws:lambda:us-west-2:529513974030:function:TestLambda"
     Description: "Enter Destination ARN like Lambda function, Kinesis stream. For more information, visit - https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html"
 
   LogGroupPattern:
