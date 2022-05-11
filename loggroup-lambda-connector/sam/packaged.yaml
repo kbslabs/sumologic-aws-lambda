@@ -107,7 +107,7 @@ Resources:
   SumoLogGroupLambdaConnector:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://kbs-sumologic-connector/LoggroupConnector/v1.0.4/d8e8545bf4f818fdb41a52d27024bbcd
+      CodeUri: s3://kbs-sumologic-connector/LoggroupConnector/v1.0.4/7e234c11d747c2ae8be589f3476241b0
       Handler: loggroup-lambda-connector.handler
       Runtime: nodejs12.x
       Environment:
