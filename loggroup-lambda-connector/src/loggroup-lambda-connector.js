@@ -128,6 +128,7 @@ function invoke_lambda(context, token, errorHandler) {
 
 function processEvents(env, event, errorHandler) {
 
+    console.log(event);
     var logGroupName = event.detail.requestParameters.logGroupName;
     if (filterLogGroups(event, env.LOG_GROUP_PATTERN)) {
         console.log("Subscribing: ", logGroupName, env.DESTINATION_ARN);
