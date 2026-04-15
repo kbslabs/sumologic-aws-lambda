@@ -2,7 +2,7 @@
 
 SAM_S3_BUCKET="kbs-sumologic-connector"
 AWS_REGION="us-west-2"
-LOG_GROUP_PATTERN="\/aws\/(lambda|fargate)\/(?!(kanaha|rdb|wasaga|.+?_producer_|workday\-producers)).+"
+LOG_GROUP_PATTERN="\/aws\/(lambda|fargate)\/(admin\-|alert\-generator[\-_]|clearwater\-|diag\-|el_matador\-|hermosa\-production|hss\-etl\-|kafka\-punches\-to\-kronos\-publisher\-production|kafka\-to\-kronos\-exporter|lido\-(consumer|api|jobs)\-|scheduler\-|tabletop[\-_]|vendor\-|windansea\-).+"
 
 version="1.0.4"
 
