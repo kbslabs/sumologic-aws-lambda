@@ -30,7 +30,7 @@ export AWS_MAX_ATTEMPTS=10
 
 # Keep in sync with LOG_GROUP_PATTERN in sam_package.sh. Written as a POSIX ERE
 # (no negative lookahead needed — this is a pure allowlist).
-ALLOWLIST_REGEX='^/aws/(lambda|fargate)/(admin-|alert-generator[-_]|clearwater-|diag-|el_matador-|hermosa-production|hss-etl-|kafka-punches-to-kronos-publisher-production|kafka-to-kronos-exporter|lido-(consumer|api|jobs)-|scheduler-|tabletop[-_]|vendor-|windansea-)'
+ALLOWLIST_REGEX='^/aws/(lambda|fargate)/(admin-|alert-generator[-_]|clearwater-|diag-|el_matador-|hermosa-production|hss-etl-|kafka-punches-to-kronos-publisher-production|kafka-to-kronos-exporter|lido-(consumer|api|jobs)-|scheduler-|tabletop[-_]|tcc2-|vendor-|windansea-)'
 
 EXECUTE=false
 if [[ "${1:-}" == "--execute" ]]; then
