@@ -4,7 +4,7 @@
   "description": "Lambda function for processing messages from CloudWatch with Dead Letter Queue Support",
   "main": "DLQProcessor.js",
   "dependencies": {
-    "jmespath": "^0.15.0",
+    "jmespath": "^0.16.0",
     "lodash": "^4.17.15"
   },
   "devDependencies": {},
